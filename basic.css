@@ -1,0 +1,19 @@
+/* This stylesheet only contains simple things such as background and text */
+
+body
+{
+    background-color: #282828;
+    color: white;
+    
+    font-family: consolas, courier;
+}
+
+.muted
+{
+  color: #b1bac4;
+}
+
+a
+{
+    color: #f39c12;
+}
