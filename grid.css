@@ -1,0 +1,50 @@
+/* Boxes for having a grid of things for something like a blog or shop */
+/* An item in the grid should be put together like this
+  <div class="item">
+    <a href="">
+      <img src=""><h5 id="title"></h5><h6 id="desc"></h6>
+    </a>
+  </div>
+*/
+
+body
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+#grid .item
+{
+    width: 23%;
+    margin: 1%;
+    position: relative;
+    text-align: center;
+    float: left;
+}
+
+#grid .item img
+{
+    width: 100%;
+    position: relative;
+    border-radius: 25px;
+}
+
+#grid .item #title
+{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -10%);
+    color: white;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+#grid .item #desc
+{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, 30%);
+    color: white;
+    background-color: rgba(0, 0, 0, .3);
+}
